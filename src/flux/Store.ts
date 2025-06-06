@@ -23,6 +23,7 @@ class TaskStore {
     }
 
     private handleAction(action: Action) {
+        
         switch (action.type) {
             case TaskActionTypes.ADD_TASK:
                 this.tasks.push({
@@ -52,7 +53,7 @@ class TaskStore {
 
     subscribe(listener: Listener) {
         this.listeners.push(listener);
-        listener(this.tasks); // Emitir estado inicial
+        listener(this.tasks); 
     }
 
     unsubscribe(listener: Listener) {

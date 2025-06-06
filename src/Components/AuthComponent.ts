@@ -125,12 +125,6 @@ this.shadowRoot!.innerHTML = `
         <button id="logoutBtn">Cerrar Sesión</button>
         </div>
     </div>
-    </div>
-    <div class="arrow-container">
-    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
-    <path d="M40 20 L60 50 L40 80" stroke=" #3a91f5"; stroke-width="5" fill="none" />
-    </svg>
-    </div>
 
 `;
 }}

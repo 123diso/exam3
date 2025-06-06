@@ -42,7 +42,9 @@ class Root extends HTMLElement {
                 <task-form user-id="${this.userId}"></task-form>
                 <task-list user-id="${this.userId}"></task-list>
                 <firebase-component></firebase-component>
-            ` : `<p>Inicia sesión para gestionar tus tareas.</p>`}
+            ` : `Juego de tablas`}
+
+            <tables-component></tables-component>
         `;
     }
 }

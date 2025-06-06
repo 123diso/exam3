@@ -2,7 +2,6 @@ export const globalStyles = `
   :host {
     font-family: 'Segoe UI', sans-serif;
     display: block;
-    background: #e4f0fb;
     min-height: 100vh;
     padding: 2rem;
     box-sizing: border-box;
@@ -36,18 +35,13 @@ export const globalStyles = `
   }
 
   button {
-    background: #3a91f5;
-    color: white;
+    color: black;
     padding: 0.75rem;
     font-size: 1rem;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease;
-  }
-
-  button:hover {
-    background: #3a91f5;
   }
 
   ul {
